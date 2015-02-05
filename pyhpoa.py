@@ -65,7 +65,7 @@ def ftpServer(directory):
 
 def main():
 	config = ConfigParser.ConfigParser()
-	config.read('oa.conf')
+	config.read('pyhpoa.conf')
 
 	try:
 		try:
