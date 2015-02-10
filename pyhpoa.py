@@ -7,7 +7,8 @@
 import paramiko
 import ConfigParser
 import logging
-import os, sys
+import os
+import sys
 import time
 import threading
 from pyftpdlib.authorizers import DummyAuthorizer
